@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto'
 }
 
 nav {
@@ -9,6 +12,10 @@ nav {
   background-color: black;
   padding: 2vh;
   z-index: -1;
+}
+
+main {
+  text-align: center;
 }
 
 .log {
@@ -31,4 +38,16 @@ nav {
   display: grid;
   grid-template: 1fr;
   justify-content: center;
+  margin: 5vh 20vw;
+  border-style: double;
+  border-width: 1px;
+  border-color: black;
+  text-align: left;
+}
+
+.create-post button {
+  background-color: black;
+  cursor: pointer;
+  border-color: white;
+  color: white;
 }
